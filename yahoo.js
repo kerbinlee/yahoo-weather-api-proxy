@@ -58,4 +58,4 @@ app.get('/query', function (request, response) {
     }
 });
 
-app.listen(1024);
+app.listen(process.env.PORT);
